@@ -6,15 +6,16 @@
   <title>Spelling Scramble</title>
   <style>
     :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-    body {margin: 0;padding: 24px;display: grid;place-items: start center;background: #000;color: #fff;}
+    body {margin: 0;padding: 24px;display: grid;place-items: start center;background: #000;color: #eaeaea;}
     .app { width: min(720px, 100%); }
     .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-    .card {border: 1px solid #333;border-radius: 12px;padding: 16px;background: #111;}
+.card{border:1px solid #333;border-radius:12px;padding:16px;background:#111;}
     .muted { opacity: 0.75; }
     .big { font-size: 32px; font-weight: 700; letter-spacing: 2px; }
     .letters { display: flex; flex-wrap: wrap; gap: 10px; }
-    button { border: 1px solid #ccc; background: #fff; border-radius: 10px; padding: 10px 12px; cursor: pointer; }
-    button:disabled { opacity: 0.45; cursor: not-allowed; }
+button{color:#fff;background:#111;border:1px solid #444;border-radius:10px;padding:10px 12px;cursor:pointer;}
+button:disabled{opacity:.45;cursor:not-allowed;}
+    button:hover{background:#1e1e1e;}
     .pill { border-radius: 999px; padding: 8px 12px; }
     .primary { border-color: #999; }
     .wordbox { font-size: 22px; font-weight: 600; min-height: 28px; }
